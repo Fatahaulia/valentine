@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Cinta untuk Aulia</title>
+    <style>
+        :root {
+            --pink-main: #ff69b4;
+            --pink-dark: #ff1493;
+            --pink-light: #fff0f6;
+            --gold: #ffd700;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--pink-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header 16:9 */
+        .love-header {
+            position: relative;
+            width: 100vw;
+            height: calc(100vw * 9/16); /* 16:9 Aspect Ratio */
+            max-height: 90vh;
+            background: linear-gradient(rgba(255,105,180,0.2), rgba(255,105,180,0.2)), 
+                        url('Proyek Baru 4 [3ECEFF2].png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            text-align: center;
+            padding: 2rem;
+            background: pink(255, 255, 255, 0.9);
+            border-radius: 15px;
+            backdrop-filter: blur(3px);
+            max-width: 80%;
+        }
+
+        .main-title {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            color: pink;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Section Surat Cinta */
+        .love-letter {
+            padding: 4rem 2rem;
+            background: pink;
+            position: relative;
+            margin: 4rem auto;
+            max-width: 800px;
+            border-radius: 15px;
+            box-shadow: 0 5px 25px rgba(255,105,180,0.1);
+        }
+
+        .love-letter::before {
+            content: '✉️';
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 3rem;
+            background: white;
+            padding: 0 1rem;
+        }
+
+        .letter-content {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.8;
+            text-align: justify;
+            column-count: 1;
+        }
+
+        .letter-content p {
+            margin-bottom: 1.5rem;
+            text-indent: 2rem;
+        }
+
+        /* Media queries untuk responsif */
+        @media (min-width: 768px) {
+            .letter-content {
+                column-count: 2;
+                column-gap: 3rem;
+            }
+        }
+
+        /* ... (CSS sebelumnya untuk gallery dan tombol tetap sama) ... */
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="love-header">
+        <div class="header-content">
+            <h1 class="main-title">Untuk Aulia Firli Hidayah</h1>
+            <p class="tagline">Cinta Abadi dalam Setiap Detik</p>
+        </div>
+    </header>
+
+    <section class="love-letter">
+        <div class="letter-content">
+            <p>Sayangggkuu aulia firli hidayah,</p>
+            
+            <p>Di antara gemerlap bintang di langit malam, kaulah yang paling terang menyinari hidupku. Setiap helai senyummu adalah melodi indah yang mengisi relung hati ini. Masih jelas terngiang dalam ingatan, saat pertama kali tatapan kita bertemu, dunia seakan berhenti sejenak hanya untuk kita berduaa sayanggg.</p>
+
+            <p>Kau tahu, aku selalu menemukan keajaiban dalam hal-hal kecil yang kita lalui bersama. Dari tawa riang saat kita berfoto di taman, hingga keheningan manis ketika kita saling memandang bulan. Setiap momen bersamamu adalah halaman baru dalam buku cinta kita yang tak pernah ingin kuakhiri sayaangg.</p>
+
+            <p>Aku ingin kau tahu bahwa cinta ini tumbuh lebih dalam setiap harinya. Seperti akar yang menjalar kuat, takkan mudah tercabut oleh badai sekalipun. Di mataku, kau adalah kesempurnaan yang tak ternilai - kelembutan dalam setiap sentuhan, kebijaksanaan dalam setiap kata, dan kehangatan dalam setiap pelukan.</p>
+
+            <p>Di koleksi foto-foto ini, kulihat cerita kita yang tertulis tanpa kata. Setiap gambar adalah saksi bisu dari bahagia yang tak terukur. Aku berjanji akan terus menambah koleksi ini, mengisi setiap halaman kosong dengan petualangan baru yang akan kita jalani bersama samaa sayangg.</p>
+
+            <p>Terima kasih telah menjadi bagian dari setiap detik hidupku. Terima kasih untuk tawa, air mata, dan semua momen di antaranya. Aku ingin menghabiskan sisa hidupku untuk membuktikan bahwa cinta kita layak untuk abadi.</p>
+
+            <p>Auliaa firli Hidayah,<br>
+            Fatah Mahendra Muhammad Ridho</p>
+        </div>
+    </section>
+
+    <!-- ... (Bagian gallery dan tombol sama seperti sebelumnya) ... -->
+
+    <style>
+        :root {
+            --pink-main: #ff69b4;
+            --pink-dark: #ff1493;
+            --pink-light: #fff0f6;
+            --gold: #ffd700;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--pink-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Gallery Section */
+        .memory-section {
+            padding: 4rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--pink-dark);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: var(--gold);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .memory-card {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .memory-card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .memory-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .memory-card:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Love Button */
+        .love-trigger {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: var(--pink-main);
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(255,105,180,0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .love-trigger:hover {
+            transform: scale(1.1) rotate(15deg);
+            background: var(--pink-dark);
+        }
+
+        .love-trigger i {
+            font-size: 28px;
+            color: white;
+        }
+
+        /* Message Popup */
+        .message-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: pink;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(255,105,180,0.3);
+            text-align: center;
+            max-width: 350px;
+            display: none;
+            z-index: 2000;
+        }
+
+        .message-container.show {
+            display: block;
+            animation: popIn 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        }
+
+        /* Animations */
+        @keyframes titleFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes popIn {
+            0% { transform: translate(-50%, -50%) scale(0); }
+            80% { transform: translate(-50%, -50%) scale(1.1); }
+            100% { transform: translate(-50%, -50%) scale(1); }
+        }
+
+        @keyframes heartFlow {
+            0% { transform: translateY(0) scale(1); opacity: 1; }
+            100% { transform: translateY(-100vh) scale(0); opacity: 0; }
+        }
+
+        .heart {
+            position: fixed;
+            font-size: 24px;
+            pointer-events: none;
+            animation: heartFlow 3s linear forwards;
+        }
+    </style>
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="love-header">
+        <div class="header-content">
+            <h1 class="main-title">Aulia Firli Hidayah</h1>
+            <p class="tagline">You Are My Forever Valentine</p>
+        </div>
+    </header>
+
+    <section class="memory-section container">
+        <h2 class="section-title">Kenangan Berharga</h2>
+        <div class="gallery-grid">
+            <div class="memory-card">
+                <img src="Impostor Gelap20240731_204345_Selebgram 7 🔥JPEG (NON AUX) By Impostor Gelap.png" alt="Kenangan 1">
+            </div>
+            <div class="memory-card">
+                <img src="IMG-20241013-WA0001.png" alt="Kenangan 2">
+            </div>
+            <div class="memory-card">
+                <img src="IMG-20240606-WA0078.png" alt="Kenangan 3">
+            </div>
+            <div class="memory-card">
+                <img src="IMG-20241018-WA0036.png" alt="Kenangan 4">
+            </div>
+            <div class="memory-card">
+                <img src="IMG_20250105_155744.png" alt="Kenangan 5">
+            </div>
+        </div>
+    </section>
+
+    <button class="love-trigger" onclick="showLoveMessage()">
+        <i class="fas fa-heart"></i>
+    </button>
+
+    <div class="message-container" id="messageBox">
+        <div class="message-content">
+            <h3>Untuk Cintaku 💌</h3>
+            <p id="messageText" class="message-text"></p>
+            <button class="close-btn" onclick="closeMessage()">close</button>
+        </div>
+    </div>
+
+    <script>
+        const loveMessages = [
+            "Setiap detik bersamamu adalah halaman terindah dalam buku hidupku 📖❤️",
+            "kau adalahh melodii yangg mempesona, irama yang membuatkuu bergetar, kau adalah harmoni yang membuatku bahagia, dan cahaya yang menerangii malamku🫂🤍",
+            
+            "Cintaku padamu tumbuh lebih dalam setiap hari, seperti akar pohon yang kuat 🌳💕",
+            "Di antara miliaran bintang di langit, kamu adalah satu-satunya yang membuatku berdecak kagum 🌟😍",
+            "Kebahagiaanku yang sesungguhnya dimulai saat kamu masuk ke dalam hidupku 🚪💖",
+            "selamanya akuu akan mencintaimu, dengan cintaa yangg tak terhingga, aku akan selaluu bersamauu, dan mencintaimu hingga akhir waktuu🥹🤍🤍",
+            "di dalam langit yang berbintang, aku menemukan cintaku yang sejati, di dalam matamu aku melihat surgaa, dan di pelukan mu aku merasaa nyaman 🥹🤍",
+        ];
+
+        function showLoveMessage() {
+            const messageBox = document.getElementById('messageBox');
+            const messageText = document.querySelector('#messageText');
+            
+            messageText.textContent = loveMessages[Math.floor(Math.random() * loveMessages.length)];
+            messageBox.classList.add('show');
+            createHearts();
+        }
+
+        function closeMessage() {
+            document.getElementById('messageBox').classList.remove('show');
+        }
+
+        function createHearts() {
+            for(let i = 0; i < 8; i++) {
+                const heart = document.createElement('div');
+                heart.className = 'heart';
+                heart.innerHTML = '❤️';
+                heart.style.left = Math.random() * window.innerWidth + 'px';
+                heart.style.animationDuration = Math.random() * 2 + 1 + 's';
+                heart.style.fontSize = Math.random() * 20 + 20 + 'px';
+                document.body.appendChild(heart);
+                
+                setTimeout(() => heart.remove(), 3000);
+            }
+        }
+
+        // Auto-create hearts every 7 seconds
+        setInterval(createHearts, 7000);
+    </script>
+</body>
+</html>
